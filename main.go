@@ -241,7 +241,8 @@ func main() {
 		}
 
 	}
-
+	os.RemoveAll(tmp)
+	os.RemoveAll(save)
 	LogReport += "Finished Save"
 	messenger.DiscordMessage(LogReport, webHookURL)
 
