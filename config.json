@@ -1,0 +1,12 @@
+{
+  "SaveDir": "/",
+  "ServerRootDirectory": "/home/user",
+  "SaveDiameter": "500",
+  "SaveName": "ParentDirectoryOfFolderHoldingJarFile",
+  "ServerName": "FolderNameHoldingJarFile",
+  "WorldName": "WorldName",
+  "FTPUser": "FTPUserName",
+  "FTPPassword": "FTPPassword",
+  "FTPURL": "FTPServer",
+  "WebHookURL": "DiscordWebHookURL"
+}
