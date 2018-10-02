@@ -204,7 +204,7 @@ func main() {
 	if a == "" {
 
 		//Send success message
-		LogReport += "Save and FTP Sucess\n"
+		LogReport += "Save and FTP Success\n"
 	} else {
 
 		LogReport += "Save and FTP FAILED\n"
