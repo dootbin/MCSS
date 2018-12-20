@@ -19,9 +19,9 @@ import (
 	"strings"
 	"time"
 
-	"./config"
-	"./copy"
-	"./messenger"
+	"github.com/dootbin/MCSS/config"
+	"github.com/dootbin/MCSS/copy"
+	"github.com/dootbin/MCSS/messenger"
 	"github.com/jinzhu/now"
 	"github.com/mholt/archiver"
 )
