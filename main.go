@@ -197,8 +197,7 @@ func main() {
 
 	//Compress backup
 	backupDest := fmt.Sprintf("%s/%s", save, backupName)
-	tgz := archiver.TarGz{}
-	err = tgz.Archive([]string{tmp}, backupDest)
+	err = archiver.Archive([]string{tmp}, backupDest)
 
 	// Send backup to ftp server
 	a := ftpSave(ftpUser, ftpPassword, ftpURL, backupDest, backupName)
